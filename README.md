@@ -26,8 +26,7 @@ Examine fluctuations in daily revenue to detect stable growth patterns, high-per
 
 To prepare the dataset and build the interactive dashboard, the following steps were followed:
  - **Data Cleaning & ETL Operations (Power Query):**
-    - Imported and cleaned raw sales data using Power Query
-    - Standardized date and time formats, removed duplicates, and ensured data type consistency
+    - Imported and cleaned raw sales data, standardized date and time formats, removed duplicates, and ensured data type consistency
     - Created a reference query to extract unique order dates 
     - Split time column into hour, minute, and second fields for granular time-based analysis
 
