@@ -50,7 +50,7 @@ To prepare the dataset and build the interactive dashboard, the following steps 
 
 
 ### 📈📊 **Data-Driven Insights & Business Implications**
-Two excel dashboards are created for addressing the key questions in this project:
+Two excel dashboards are created for addressing the key questions in this project (refer to [Excel File](https://github.com/Seyyed-Reza-Mashhadi/Sales-Data-Analysis-of-Platos-Pizza-Store-Using-Microsoft-Excel/blob/main/Pizza%20Sales%20Project.xlsx)):
 
 **_Order Activity Dashboard_**
 <img width="2004" height="855" alt="Image" src="https://github.com/user-attachments/assets/b3995b8c-97f4-43e7-b6ff-7dad5fc1b343" />
