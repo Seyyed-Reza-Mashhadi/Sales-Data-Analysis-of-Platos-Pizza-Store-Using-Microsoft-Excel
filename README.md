@@ -25,11 +25,11 @@ Examine fluctuations in daily revenue to detect stable growth patterns, high-per
 ### ⚙️ Data Processing & Analysis Workflow
 
 To prepare the dataset and build the interactive dashboard, the following steps were followed:
- - **Data Cleaning & Transformation (Power Query):**
-    - Importing and cleaning the dataset using Power Query 
-    - Performing ETL operations such as standardizing date/time formats, etc.
-    - Creating a reference query from the main dataset to extract unique order dates and derive the day of the week
-    - Splitting the time column into separate hour, minute, and second fields for granular, time-based analysis
+ - **Data Cleaning & ETL Operations (Power Query):**
+    - Imported and cleaned raw sales data using Power Query
+    - Standardized date and time formats, removed duplicates, and ensured data type consistency
+    - Created a reference query to extract unique order dates and derive day-of-week insights
+    - Split time column into hour, minute, and second fields for granular time-based analysis
 
 - **Data Modeling (Power Pivot):**
     - A data model was created in Power Pivot, establishing relationships between tables based on the order_id.
