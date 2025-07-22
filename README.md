@@ -28,7 +28,7 @@ To prepare the dataset and build the interactive dashboard, the following steps 
  - **Data Cleaning & ETL Operations (Power Query):**
     - Imported and cleaned raw sales data using Power Query
     - Standardized date and time formats, removed duplicates, and ensured data type consistency
-    - Created a reference query to extract unique order dates and derive day-of-week insights
+    - Created a reference query to extract unique order dates 
     - Split time column into hour, minute, and second fields for granular time-based analysis
 
 - **Data Modeling (Power Pivot):**
