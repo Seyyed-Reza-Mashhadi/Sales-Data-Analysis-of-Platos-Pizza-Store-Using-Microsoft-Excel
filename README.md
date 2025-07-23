@@ -47,22 +47,22 @@ _Revenue Dashboard_
 
 The analysis highlighted several key performance patterns that can inform decision-making at Plato’s Pizza:
 
-- Total Revenue & Revenue Trends Over Time:
+- **Total Revenue & Revenue Trends Over Time:**
 Total gross revenue (annual) is over $817,860. Although revenue is generally stable, occasional spikes hint at successful promotional activities or external events. Analyzing these spikes more closely can help replicate their success — for example, by aligning future campaigns with local events or repeating proven promotions. 
 
-- Revenue by Product Category:
+- **Revenue by Product Category:**
 Classic pizzas generate the highest share of revenue, indicating strong customer preference. This suggests potential for targeted promotions (e.g., combo deals) centered on the Classic range. On the other hand, the lower-performing categories may need re-evaluation — through recipe innovation, pricing adjustments, or promotional boosts.
 
-- Monthly Sales Trends:
+- **Monthly Sales Trends:**
 Peak order volumes in specific months (such as July and November) indicate seasonal highs, which could be leveraged for future marketing campaigns or limited-time offers. Understanding the timing of these peaks helps with inventory planning, staff scheduling, and campaign timing.
 
-- Weekly Order Patterns:
+- **Weekly Order Patterns:**
 The highest average orders occur on weekends and late weekdays (especially Friday), implying these are high-traffic days. This insight can support labor optimization (e.g., more staff during peak shifts), as well as targeted marketing, such as weekend offers.
 
-- Hourly Demand Fluctuations:
+- **Hourly Demand Fluctuations:**
 The busiest hours fall around lunchtime and early evening (12:00 to 14:00, and 17:00-19:00). These insights suggest optimal windows for flash deals, online delivery promotions, or queue management to improve service efficiency during peak hours.
 
-- Product Popularity by Weekday:
+- **Product Popularity by Weekday:**
 The dashboard’s interactive component reveals the most frequently ordered pizza for each day of the week. This can be used to create “Pizza of the Day” specials, discounts, or featured items to boost engagement and repeat business.
 
 
