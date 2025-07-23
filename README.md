@@ -1,6 +1,6 @@
 <h3 align="center">🍕🍕🍕   Plato's Pizza Sales Analysis   🍕🍕🍕</h3> <br>
 
-### 📁 About Project 
+### About Project 
 This project presents interactive Excel-based dashboard analysis of Plato’s Pizza using a year’s worth of sales data.
 
 🔗 Dataset Source: [Plato’s Pizza Sales Dataset on Kaggle](https://www.kaggle.com/datasets/shilongzhuang/pizza-sales)
