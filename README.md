@@ -1,60 +1,48 @@
-### About Project: Plato's Pizza Sales Analysis   🍕🍕🍕
+<h3 align="center">🍕🍕🍕   Plato's Pizza Sales Analysis   🍕🍕🍕</h3> <br>
 
-This project presents an interactive Excel-based dashboard analysis of Plato’s Pizza using a year’s worth of sales data. The objective is to identify performance patterns and operational insights that can support data-driven decisions.
+### 📁 About Project 
+This project presents interactive Excel-based dashboard analysis of Plato’s Pizza using a year’s worth of sales data.
 
-Dataset Source: [Plato’s Pizza Sales Dataset on Kaggle](https://www.kaggle.com/datasets/shilongzhuang/pizza-sales)
+🔗 Dataset Source: [Plato’s Pizza Sales Dataset on Kaggle](https://www.kaggle.com/datasets/shilongzhuang/pizza-sales)
 
-### 🔍 Key Business Questions
-
-- When is customer traffic at its peak?
-Identify high-traffic days and hours based on average order volume to optimize staff scheduling, ingredient procurement, and operational efficiency during demand surges.
-
-- What is the store’s pizza output during peak periods?
-Quantify the number of pizzas sold during the busiest time slots to better forecast production needs and reduce delays, waste, or stockouts.
-
-- Which pizzas perform best on specific weekdays?
-Analyze day-by-day product preferences to uncover trends in customer ordering behavior, supporting menu planning, promotional targeting, and potential "pizza of the day" strategies.
-
-- What is the total annual revenue, and how is it distributed across product categories?
-Evaluate overall sales performance and segment revenue contributions by pizza category (e.g., Classic, Supreme, Veggie, Chicken) to identify core profit drivers and potential areas for repositioning or strategic emphasis.
-
-- What does the revenue trend reveal over time, and are there identifiable sales spikes linked to seasons or events?
-Examine fluctuations in daily revenue to detect stable growth patterns, high-performing timeframes, and potential opportunities for seasonal promotions or event-driven campaigns.
-
+### 🔍 Key Business Objectives
+This analysis aims to optimize Plato's Pizza operations through 5 key objectives:
+- Identify peak traffic days/hours to optimize staffing and inventory
+- Quantify pizzas sold during peak periods for production forecasting
+- Determine top-performing pizzas by weekday for menu strategy
+- Analyze revenue distribution across pizza categories 
+- Track seasonal revenue trends for promotional opportunities
 
 ### ⚙️ Data Processing & Analysis Workflow
+- **Data Cleaning & ETL (Power Query)**
+    - Imported and cleaned raw sales data
+    - Removed duplicates, standardized date and time formats, and ensured data type consistency
+    - Created a reference query to extract unique dates 
+    - Split date column (year/month/day) and time column (hour/minute/second)
 
-To prepare the dataset and build the interactive dashboard, the following steps were followed:
- - **Data Cleaning & ETL Operations (Power Query):**
-    - Imported and cleaned raw sales data, standardized date and time formats, removed duplicates, and ensured data type consistency
-    - Created a reference query to extract unique order dates 
-    - Split time column into hour, minute, and second fields for granular time-based analysis
+- **Data Modeling (Power Pivot)**
+    - Established relationships in the model based on the order_id column.
+    - Enabled Dynamic aggregation across columns 
+    - Created DAX measures such as total revenue, average pizza orders per hour/day, etc. 
 
-- **Data Modeling (Power Pivot):**
-    - A data model was created in Power Pivot, establishing relationships between tables based on the order_id.
-    - Useful DAX measures were developed, including total revenue, average pizzas sold per hour/day, quantity sold per category, etc. These measures enabled dynamic and scalable aggregation across different filters.
+- **Interactive Dashboard Design**
+    - Created PivotTables / PivotCharts 
+    - Implemented filtering controls including slicers and timelines
+    - Designed KPI cards (e.g., Total Revenue)
+    - Built "Favorite Pizza of the Day" feature using data validation and LOOKUP function
 
-- **Interactive Dashboard Design:**
-    - PivotTables and PivotCharts to show trends and breakdowns
-    - Slicers for filtering by pizza category
-    - A Timeline control for filtering by specific months and dates
-    - KPI-style cards to highlight key metrics such as Total Revenue
-    - Favorite Pizza of the Day section using a drop-down menu (using data validation option) and LOOKUP function to dynamically show the top-selling pizza for a selected weekday
+- **UX Optimization & Dashboard Protection**
+    - Enhanced visual clarity through conditional formatting and simple plots
+    - Enabled dynamic functionality using cell references/formulas
+    - Implemented password protection to prevent unauthorized edits by end-users
 
-- **User Experience Enhancements:**
-    - Conditional formatting, simple and clean layout for clarity
-    - Smart use of cell references and formulas to dynamically update visuals and outputs as required
-    - Password protection was applied to the sheet to prevent accidental or unauthorized changes by end-users, ensuring data integrity and professional presentation.
+### 📈📊 **Key Data-Driven Insights & Business Implications**
+Two excel dashboards are created for this project (refer to [Excel File](https://github.com/Seyyed-Reza-Mashhadi/Sales-Data-Analysis-of-Platos-Pizza-Store-Using-Microsoft-Excel/blob/main/Pizza%20Sales%20Project.xlsx)):
 
-
-
-### 📈📊 **Data-Driven Insights & Business Implications**
-Two excel dashboards are created for addressing the key questions in this project (refer to [Excel File](https://github.com/Seyyed-Reza-Mashhadi/Sales-Data-Analysis-of-Platos-Pizza-Store-Using-Microsoft-Excel/blob/main/Pizza%20Sales%20Project.xlsx)):
-
-**_Order Activity Dashboard_**
+_Order Activity Dashboard_
 <img width="2004" height="855" alt="Image" src="https://github.com/user-attachments/assets/b3995b8c-97f4-43e7-b6ff-7dad5fc1b343" />
 
-**_Revenue Dashboard_**
+_Revenue Dashboard_
 <img width="2004" height="850" alt="Image" src="https://github.com/user-attachments/assets/61d791a9-2223-409d-b6a9-0e0a492184f2" />
 
 The analysis highlighted several key performance patterns that can inform decision-making at Plato’s Pizza:
@@ -80,13 +68,7 @@ The dashboard’s interactive component reveals the most frequently ordered pizz
 
 ### 🎯 Strategic Recommendations
 
-
-Based on the insights above, Plato’s Pizza can take the following actions to enhance operational efficiency and increase sales:
-
-- Prioritize promotions for high-revenue categories like Classic pizzas, while experimenting with pricing or bundling for underperforming lines.
-
-- Align staffing and inventory with peak hours, days, and seasonal demand to improve service and reduce operational friction.
-
-- Leverage weekday product preferences to run targeted “Pizza of the Day” campaigns or limited-time offers that boost customer engagement.
-
-- Capitalize on sales spikes by analyzing their drivers and replicating successful seasonal or event-based strategies.
+- 🚀 Bundle Classic pizzas with lower-performing categories 
+- 📅 Launch "Pizza of the Day" based on weekday preferences to boost customer engagement
+- 👨‍🍳 Align staff schedules with Friday/weekend rushes to improve service and reduce operational friction 
+- 🎉 Replicate July/November spikes through seasonal promotions
