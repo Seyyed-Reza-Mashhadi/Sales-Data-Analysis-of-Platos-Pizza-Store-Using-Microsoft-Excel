@@ -40,10 +40,10 @@ This analysis aims to optimize Plato's Pizza operations through 5 key objectives
 Two excel dashboards are created for this project (refer to [Excel File](https://github.com/Seyyed-Reza-Mashhadi/Sales-Data-Analysis-of-Platos-Pizza-Store-Using-Microsoft-Excel/blob/main/Pizza%20Sales%20Project.xlsx)):
 
 _Order Activity Dashboard_
-<img width="2004" height="855" alt="Image" src="https://github.com/user-attachments/assets/b3995b8c-97f4-43e7-b6ff-7dad5fc1b343" />
+<img width="2004" height="855" alt="Image" src="https://github.com/user-attachments/assets/3383036e-a8e7-4bad-a2e6-29afcaf3e212" />
 
 _Revenue Dashboard_
-<img width="2004" height="850" alt="Image" src="https://github.com/user-attachments/assets/61d791a9-2223-409d-b6a9-0e0a492184f2" />
+<img width="2004" height="850" alt="Image" src="https://github.com/user-attachments/assets/cbe3fbae-220d-40fa-936f-dae866d93585" />
 
 The analysis highlighted several key performance patterns that can inform decision-making at Plato’s Pizza:
 
