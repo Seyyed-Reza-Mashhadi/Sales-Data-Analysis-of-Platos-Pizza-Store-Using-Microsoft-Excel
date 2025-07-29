@@ -1,11 +1,11 @@
-<h3 align="center">🍕🍕🍕   Plato's Pizza Sales Analysis   🍕🍕🍕</h3> <br>
+<h1 align="center">🍕 Plato's Pizza Sales Analysis 🍕</h1> 
 
-### 🧩 About Project 
+## 🧩 About Project 
 This project presents interactive Excel-based dashboard analysis of Plato’s Pizza using a year’s worth of sales data.
 
 🔗 Dataset Source: [Plato’s Pizza Sales Dataset on Kaggle](https://www.kaggle.com/datasets/shilongzhuang/pizza-sales)
 
-### 🔍 Key Business Objectives
+## 🔍 Key Business Objectives
 This analysis aims to optimize Plato's Pizza operations through 5 key objectives:
 - Identify peak traffic days/hours to optimize staffing and inventory
 - Quantify pizzas sold during peak periods for production forecasting
@@ -13,7 +13,7 @@ This analysis aims to optimize Plato's Pizza operations through 5 key objectives
 - Analyze revenue distribution across pizza categories 
 - Track seasonal revenue trends for promotional opportunities
 
-### ⚙️ Data Processing & Analysis Workflow
+## ⚙️ Data Processing & Analysis Workflow
 - **Data Cleaning & ETL (Power Query)**
     - Imported and cleaned raw sales data
     - Removed duplicates, standardized date and time formats, and ensured data type consistency
@@ -36,7 +36,7 @@ This analysis aims to optimize Plato's Pizza operations through 5 key objectives
     - Enabled dynamic functionality using cell references/formulas
     - Implemented password protection to prevent unauthorized edits by end-users
 
-### 📈📊 **Key Data-Driven Insights & Business Implications**
+## 📈📊 **Key Data-Driven Insights & Business Implications**
 Two excel dashboards are created for this project (refer to [Excel File](https://github.com/Seyyed-Reza-Mashhadi/Sales-Data-Analysis-of-Platos-Pizza-Store-Using-Microsoft-Excel/blob/main/Pizza%20Sales%20Project.xlsx)):
 
 _Order Activity Dashboard_
@@ -66,7 +66,7 @@ The busiest hours fall around lunchtime and early evening (12:00 to 14:00, and 1
 The dashboard’s interactive component reveals the most frequently ordered pizza for each day of the week. This can be used to create “Pizza of the Day” specials, discounts, or featured items to boost engagement and repeat business.
 
 
-### 🎯 Strategic Recommendations
+## 🎯 Strategic Recommendations
 
 - 🚀 Bundle Classic pizzas with lower-performing categories 
 - 📅 Launch "Pizza of the Day" based on weekday preferences to boost customer engagement
